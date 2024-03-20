@@ -20,14 +20,7 @@ public class TechnoMagicTab {
 		        .title(Component.translatable("item_group.technomagic.tab"))
 				.icon(() -> new ItemStack(Items.WRITABLE_BOOK))
 				.displayItems((parameters, group) -> {
-                group.accept(WRITABLE_BOOK.get());//test
+                group.accept(Items.WRITABLE_BOOK);//test
 		        })
 				.build());
 }
-/*
-as blocks: tabData.accept(DongdongmodModBlocks.SPHENE_BRICK.get().asItem());
-at blocks: public static final RegistryObject<Block> COOLER = REGISTRY.register("cooler", () -> new CoolerBlock());
-
-as items: tabData.accept(DongdongmodModItems.LAVA_DETECTOR.get());
-at items: public static final RegistryObject<Item> DONGDONGBAG = REGISTRY.register("dongdongbag", () -> new DongdongbagItem());
-*/

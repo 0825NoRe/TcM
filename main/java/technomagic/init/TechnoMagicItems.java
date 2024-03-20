@@ -1,6 +1,6 @@
 package main.java.technomagic.init;
 
-import technomagic.item.*;
+//import technomagic.item.*;
 import technomagic.TechnoMagic;
 import net.minecraft.world.item.*;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;

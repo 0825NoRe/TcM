@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "technomagic:blocks/Machine_Top",
+    "up": "technomagic:blocks/Machine_Top",
+    "north": "technomagic:blocks/ChunkedBS",
+    "east": "technomagic:blocks/Machine_Side",
+    "south": "technomagic:blocks/Machine_Side",
+    "west": "technomagic:blocks/Machine_Side",
+    "particle": "technomagic:blocks/Machine_Top"
+  }
+}
