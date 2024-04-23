@@ -52,3 +52,20 @@ public enum MyMod {
         System.out.println("Hello, Forge");
     }
 }
+@Mod.EventBusSubscriber(modid = "my_mod")
+public final class ItemInitializer {
+
+    // 我们一会会用到它。
+    public static Item firstItem;
+
+    // 和正常的事件一样，你不需要手动调用此方法！Forge 会自动调用它的。
+    @SubscribeEvent
+    public static void registerItem(RegistryEvent.Register<Item> event) {
+        // 注意 setRegistryName 调用。
+        // 每一个物品都对应唯一一个注册名，用于和其他物品区分开来。这个注册名不能含有大写字母。
+        // 此方法返回被注册的 Item 对象。
+        event.getRegistry().registerAll(
+            firstItem = new Item().setRegistryName("my_mod:first_item")
+        );
+    }
+}
