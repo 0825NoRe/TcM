@@ -1,0 +1,12 @@
+item.rbmk_pellet_thmeu.name=ThMEU 中浓缩度铀-233导向钍燃料芯块
+cannery.silex.2=…无视目标的爆炸抗性。
+container.rtgFurnace=放射性同位素热电熔炉
+item.pellet_rtg_actinium.desc=蓝光和β射线的光芒。
+item.pellet_rtg_berkelium.desc=/NULL/
+item.pellet_rtg_strontium.desc=发现于加利福尼亚...
+item.pin.desc=撬开普通锁的成功率约为10%。
+
+item.record.lc.desc=Valve - Diabolic Adrenaline Guitar/Lambda Core
+item.record.ss.desc=Valve - Sector Sweep
+item.record.vc.desc=Valve - Vortal Combat
+item.reer_graar.name=The Reer Graar
